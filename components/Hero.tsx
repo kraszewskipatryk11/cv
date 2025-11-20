@@ -24,7 +24,6 @@ const Hero = () => {
       />
 
       {/* GRID BACKGROUND */}
-      {/* GRID BACKGROUND */}
       <div
         className={cn(
           "absolute inset-0",
@@ -38,7 +37,8 @@ const Hero = () => {
       <div className={cn(
         "pointer-events-none absolute inset-0 flex items-center justify-center",
         "bg-white dark:bg-black-100",
-        "[mask-image:linear-gradient(to_right,black_0%,transparent_15%,transparent_85%,black_100%)]"
+        // ZMIANA PONIŻEJ: Dwa gradienty oddzielone przecinkiem
+        "[mask-image:linear-gradient(to_right,black_0%,transparent_15%,transparent_85%,black_100%),linear-gradient(to_bottom,transparent_70%,black_100%)]"
       )}></div>
 
     

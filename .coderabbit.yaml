@@ -1,0 +1,30 @@
+# CodeRabbit configuration file
+# https://docs.coderabbit.ai/guides/configure-coderabbit
+
+language: en-US
+early_access: false
+reviews:
+  profile: chill
+  request_changes_workflow: false
+  high_level_summary: true
+  poem: false
+  review_status: true
+  collapse_walkthrough: false
+  auto_review:
+    enabled: true
+    drafts: false
+  path_filters:
+    - "!**/*.md"
+  path_instructions:
+    - path: "**/*.{ts,tsx}"
+      instructions: |
+        - Review TypeScript types and ensure proper type usage
+        - Check if React components are properly optimized
+        - Suggest using React hooks where appropriate
+    - path: "components/**"
+      instructions: |
+        - Verify components are reusable
+        - Check for proper props validation
+        - Suggest using Tailwind classes instead of inline styles
+chat:
+  auto_reply: true

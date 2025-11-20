@@ -1,4 +1,7 @@
+'use client'
+
 import React from 'react'
+import { motion } from 'framer-motion'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
 import { socialMedia } from '@/data'
@@ -8,11 +11,17 @@ const Footer = () => {
     <footer className='w-full mb-[10px] pb-10' id='contact'>
 
         <div className='flex flex-col items-center'>
-            <h1 className='heading lg:max-w-[45vw]'>
+            <motion.h1 
+              className='heading lg:max-w-[45vw]'
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
+              viewport={{ once: true, margin: "-100px" }}
+            >
                 Ready to take <span 
                 className='text-purple'>your</span> digital presence to <span
                 className='text-purple'>next level</span>?
-            </h1>
+            </motion.h1>
             <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me today and let's discuss how I can help you achieve your goals.</p>
             <a href='mailto:kraszewski-patryk@o2.pl'>
                 <MagicButton

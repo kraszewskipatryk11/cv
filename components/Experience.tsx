@@ -1,16 +1,25 @@
+'use client'
+
 import { workExperience } from '@/data'
 import React from 'react'
+import { motion } from 'framer-motion'
 import { Button } from './ui/MovingBorders'
 
 const Experience = () => {
   return (
     <div className='py-20' id='testimonials'>
-        <h1 className='heading'>
+        <motion.h1 
+          className='heading'
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          viewport={{ once: true, margin: "-100px" }}
+        >
             My {''}
         <span className='text-purple'>
             Education & Goals
         </span>
-        </h1>
+        </motion.h1>
 
         <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map((card) => (

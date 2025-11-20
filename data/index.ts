@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Education&Goals", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -104,70 +104,83 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
+export const techStack = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "My go-to library for building interactive, component-based user interfaces with speed and efficiency.",
+    name: "React",
+    title: "Frontend Library",
+    iconName: "FaReact",
+    iconImg: "/react_icon.svg",
+    color: "#61DAFB",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "The framework of choice for production-grade applications, offering server-side rendering and great SEO optimization.",
+    name: "Next.js",
+    title: "Fullstack Framework",
+    iconName: "SiNextdotjs",
+    color: "#FFFFFF",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "A utility-first CSS framework that allows me to rapidly build custom designs without leaving the HTML.",
+    name: "Tailwind CSS",
+    title: "Styling Engine",
+    iconName: "SiTailwindcss",
+    color: "#38B2AC",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ensures type safety and scalable code, significantly reducing runtime errors in complex applications.",
+    name: "TypeScript",
+    title: "Language",
+    iconName: "SiTypescript",
+    color: "#3178C6",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Provides real-time error tracking and performance monitoring, helping me fix bugs before users notice them.",
+    name: "Sentry",
+    title: "Monitoring & Logs",
+    iconName: "SiSentry",
+    color: "#362D59",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "React",
+    img: "/react_icon.svg",
   },
-  {
+   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "NextJS",
+    img: "/next.svg",
   },
-  {
+    {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Tailwind",
+    img: "/tail.svg",
   },
-  {
+   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Typescript",
+    img: "/ts.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "NodeJS",
+    img: "/node.svg",
   },
+  {
+    id: 6,
+    name: "Github",
+    img: "/githubi.svg",
+  },
+  
+
 ];
 
 export const workExperience = [

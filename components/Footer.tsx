@@ -8,7 +8,7 @@ import { socialMedia } from '@/data'
 
 const Footer = () => {
   return (
-    <footer className='w-full mt-20 mb-[10px] pb-10 relative' id='contact'>
+    <footer className='w-full mb-[10px] pb-10 relative' id='contact'>
         <div className='w-full absolute left-0 -bottom-72 min-h-96'>
           <img 
             src='/footer-grid.svg' 
@@ -29,7 +29,7 @@ const Footer = () => {
                 className='text-purple'>your</span> digital presence to <span
                 className='text-purple'>next level</span>?
             </motion.h1>
-            <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me today and let's discuss how I can help you achieve your goals.</p>
+            <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me today and let&apos;s discuss how I can help you achieve your goals.</p>
             <a href='mailto:kraszewski-patryk@o2.pl'>
                 <MagicButton
                 title="Let's get in touch"

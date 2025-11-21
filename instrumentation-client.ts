@@ -10,6 +10,16 @@ Sentry.init({
   // Add optional integrations for additional features
   integrations: [
     Sentry.replayIntegration(),
+    Sentry.feedbackIntegration({
+      // Additional SDK configuration goes in here, for example:
+      colorScheme: "system",
+      autoInject: true,
+      showBranding: false,
+      triggerLabel: "Report Issue",
+      formTitle: "Report a Bug or Give Feedback",
+      submitButtonLabel: "Send Feedback",
+      messagePlaceholder: "What's the bug? What did you expect?",
+    }),
   ],
 
   // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.

@@ -72,15 +72,15 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Sleepy Calc: Interactive Sleep Tool",
+    des: "Find the perfect bedtime and wake up energized with this smart sleep cycle calculator.",
+    img: "/sleepybg.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://www.sleepy-calc.com/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
+    title: "S",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
@@ -202,13 +202,19 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    name: "GitHub",
+    link: "https://github.com/kraszewskipatryk11"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/insta.svg",
+    name: "Instagram",
+    link: "https://www.instagram.com/pvtryktl"
   },
   {
     id: 3,
     img: "/link.svg",
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/patryk-kraszewski-30aa132b0"
   },
 ];
